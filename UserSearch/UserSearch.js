@@ -54,7 +54,7 @@ class UserSearch extends Component {
               key="searchButton"
               buttonStyle={searchButtonStyle}
               tabIndex="-1"
-              ariaLabel={ariaLabel}
+              aria-label={ariaLabel}
               onClick={this.openModal}
             >
               {searchLabel || <Icon icon="search" color="#fff" />}
